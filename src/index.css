@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 100px auto;
+    width: 500px;
+}
+
+.media {
+    border-radius: 10px;
+    width: 640px;
+    height: 480px;
+    position: relative;
+}
+
+img,
+video {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    display: block;
+}
+
+.btns {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 15px;
+    display: flex;
+    gap: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: larger;
+    border-radius: 8px;
+    border: 1px solid white;
+    background: #62d20c9f;
+    color: white;
+    cursor: pointer;
+}
+
+.canvas {
+    display: none;
+}
